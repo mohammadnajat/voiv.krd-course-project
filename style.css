@@ -1,0 +1,224 @@
+@font-face {
+  font-family: Vazir;
+  src: url(/Fonts/Vazirmatn-Regular.ttf);
+}
+
+body {
+  direction: rtl;
+  font-family: Vazir;
+  background-color: #f5f5f5;
+}
+
+.prop-img img {
+  width: 900px;
+  border-radius: 10px;
+  box-shadow: -3px 18px 100px -83px rgba(0, 0, 0, 0.55);
+  display: block;
+  margin: auto auto 150px;
+}
+.three-click h4,
+.three-click i {
+  color: white;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #0baaca;
+  font-size: 16px;
+  font-weight: bold;
+  height: 48px;
+  width: 48px;
+  padding-top: 15px;
+}
+.three-click {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.three-click img {
+  width: 1110px;
+  height: 404px;
+}
+.three-click i {
+  font-size: 20px;
+}
+.company {
+  margin-top: 150px;
+}
+.imp {
+  margin-top: 262px;
+}
+.imp .title > p {
+  font-size: 20px;
+}
+.imp .title > h1 {
+  font-size: 40px;
+}
+.imp .content :nth-last-child() {
+  font-size: 20px;
+}
+.text .icon {
+  background-color: white;
+  position: absolute;
+  width: 32px;
+  height: 32px;
+  left: -89px;
+  border-radius: 50%;
+  top: -2px;
+}
+.img .imgaes {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+.img .imgaes div {
+  margin: 20px;
+}
+.text .icon i {
+  width: 12px;
+  height: 9px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  left: 0;
+  top: 8px;
+  right: 8px;
+}
+.imp .chart div {
+  position: absolute;
+  background-color: white;
+  width: 265px;
+  height: 265px;
+  border-radius: 26px;
+}
+.imp .chart .first {
+  left: 470px;
+  top: 2170px;
+}
+.imp .chart .first h1 {
+  position: absolute;
+  font-size: 72px;
+  font-weight: 700;
+  left: 50%;
+  transform: translateY(100%);
+}
+.imp .chart .first p {
+  position: absolute;
+  left: 42%;
+  transform: translateY(700%);
+}
+.imp .chart .first i {
+  width: 40px;
+  height: 40px;
+  background-color: #d3ffe7;
+  color: #40c780;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  border-radius: 50%;
+  right: 10px;
+  top: 10px;
+}
+.imp .chart .second {
+  left: 180px;
+  top: 2040px;
+}
+.imp .chart .second h1 {
+  position: absolute;
+  font-size: 72px;
+  font-weight: 700;
+  left: 35%;
+  transform: translateY(100%);
+}
+.imp .chart .second p {
+  position: absolute;
+  left: 42%;
+  transform: translateY(650%);
+}
+
+.imp .chart .second i {
+  width: 40px;
+  height: 40px;
+  background-color: #ffedde;
+  color: #faba86;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+.imp .chart .third {
+  left: 180px;
+  top: 2333px;
+}
+
+.imp .chart .third h1 {
+  position: absolute;
+  font-size: 72px;
+  font-weight: 700;
+  left: 35%;
+  transform: translateY(100%);
+}
+.imp .chart .third p {
+  position: absolute;
+  left: 35%;
+  transform: translateY(650%);
+}
+
+.imp .chart .third i {
+  width: 40px;
+  height: 40px;
+  background-color: #efe5ff;
+  color: #a369ff;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+}
+
+.why .title .text > p {
+  font-size: 20px;
+}
+.why .box div {
+  margin-top: 40px;
+  text-align: center;
+  background-color: white;
+  height: 224px;
+  width: 350px;
+  border-radius: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+.why .box div i {
+  width: 48px;
+  height: 48px;
+  background-color: #f8f9fa;
+  border-radius: 50%;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.price .divs button {
+  margin-top: 52px;
+}
+
+.last-div::before {
+  content: "";
+  background-color: #eeeeee;
+  width: 100px;
+  height: 348px;
+  margin-left: 1px;
+}
